@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+  --ff-headings: "Big Shoulders Display", cursive;
+  --ff-primary: "Barlow Condensed", sans-serif;
+
+  --clr-brown: #ca8f65;
+  --clr-gray: #8e8e8e;
+  --clr-light: #e4dbc3;
+  --clr-white: #fdfffc;
+  /* font-sizes 16,17,18,20,24,32,90 */
+  --fs-sm: 1rem;
+  --fs-2sm: 1.125rem;
+  --fs-md: 1.25rem;
+  --fs-2md: 1.5rem; /* 14 */
+  --fs-lg: 2rem; /* 17 */
+  --fs-xxl: 5.625rem; /* 48 */
+  /* SPACINGS */
+
+  --py-xs: 0.5rem;
+  --py-rg: 1.25rem;
+  --py-2rg: 1.5625rem;
+  --py-lg: 1.875rem;
+  --py-2lg: 2.1875rem;
+  --py-xl: 2.5rem;
+  --py-2xl: 2.8125rem;
+  --py-xxl: 5rem;
+  --px-rg: 1.25rem;
+  --mx-xs: 0.3125rem;
+}
+
+/* RESETS */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+}
+
+/* HELPER CLASSES */
+
+/* COMPONENTS */
+
+h1 {
+  font-size: var(--fs-md);
+}
