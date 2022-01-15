@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: center;
+    background-color: transparent;
+  }
+  .nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home {
+    height: 100vh;
+  }
+  .home__bg1 {
+    background-size: cover;
+  }
+  .home__bg2 {
+    background-size: cover;
+  }
+  .home__bg2-text {
+    font-size: 45vmin;
+  }
+}
